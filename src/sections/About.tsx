@@ -103,7 +103,7 @@ export const AboutSection = () => {
 								title='My Reads'
 								description='Explore the books shaping my perspectives.'
 							/>
-							<div className='w-40 mx-auto mt-2'>
+							<div className='w-40 mx-auto mt-2 md:mt-0'>
 								<Image
 									src={bookImage}
 									alt='Book Cover'
@@ -128,41 +128,43 @@ export const AboutSection = () => {
 							/>
 						</Card>
 					</div>
-					<Card className='h-[320px] p-0 flex flex-col'>
-						<CardHeader
-							title='Beyond the Code'
-							description='Explore my interests and hobbies beyond the digital realm.'
-							className='px-6 py-6'
-						/>
-						<div className='relative flex-1'>
-							{hobbies.map((hobby) => (
-								<div
-									key={hobby.title}
-									className='inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
-									style={{ left: hobby.left, top: hobby.top }}
-								>
-									<span className='font-medium text-gray-950'>
-										{hobby.title}
-									</span>
-									<span>{hobby.emoji}</span>
-								</div>
-							))}
-						</div>
-					</Card>
-					<Card className='h-[320px] p-0 relative'>
-						<Image
-							src={mapImage}
-							alt='Map'
-							className='h-full w-full object-cover object-left-top'
-						/>
-						<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30'>
-							<Image
-								src={smileMemoji}
-								alt='Smiling Memoji'
-								className='size-20'
+					<div className='grid grid-cols-1 md:grid-cols-5 gap-8'>
+						<Card className='h-[320px] p-0 flex flex-col col-span-3'>
+							<CardHeader
+								title='Beyond the Code'
+								description='Explore my interests and hobbies beyond the digital realm.'
+								className='px-6 py-6'
 							/>
-						</div>
-					</Card>
+							<div className='relative flex-1'>
+								{hobbies.map((hobby) => (
+									<div
+										key={hobby.title}
+										className='inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute'
+										style={{ left: hobby.left, top: hobby.top }}
+									>
+										<span className='font-medium text-gray-950'>
+											{hobby.title}
+										</span>
+										<span>{hobby.emoji}</span>
+									</div>
+								))}
+							</div>
+						</Card>
+						<Card className='h-[320px] p-0 relative col-span-2'>
+							<Image
+								src={mapImage}
+								alt='Map'
+								className='h-full w-full object-cover object-left-top'
+							/>
+							<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30'>
+								<Image
+									src={smileMemoji}
+									alt='Smiling Memoji'
+									className='size-20'
+								/>
+							</div>
+						</Card>
+					</div>
 				</div>
 			</div>
 		</div>
