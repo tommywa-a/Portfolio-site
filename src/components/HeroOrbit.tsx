@@ -13,8 +13,8 @@ export const HeroOrbit = ({
 	size: number
 	rotation: number
 	shouldOrbit?: boolean
-	shouldSpin?: boolean,
-	spinDuration?: string,
+	shouldSpin?: boolean
+	spinDuration?: string
 	orbitDuration?: string
 }>) => {
 	return (
@@ -33,7 +33,10 @@ export const HeroOrbit = ({
 						width: `${size}px`,
 					}}
 				>
-					<div className={twMerge(shouldSpin === true && 'animate-spin')} style={{ animationDuration: spinDuration }}>
+					<div
+						className={twMerge(shouldSpin === true && 'animate-spin')}
+						style={{ animationDuration: spinDuration }}
+					>
 						<div
 							className='inline-flex'
 							style={{ transform: `rotate(${rotation * -1}deg)` }}
