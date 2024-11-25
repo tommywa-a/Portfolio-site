@@ -1,6 +1,12 @@
 export const SectionHeader = ({
-  title, eyebrow, description
-}: {title: string, eyebrow: string, description: string}) => {
+	title,
+	eyebrow,
+	description,
+}: {
+	title: string
+	eyebrow: string
+	description: string
+}) => {
 	return (
 		<>
 			<div className='flex justify-center'>
