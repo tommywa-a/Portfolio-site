@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import memojiImage from '@/assets/images/Tomiwa-laptop_memoji.png'
 import Image from 'next/image'
@@ -10,10 +10,13 @@ import { HeroOrbit } from '@/components/HeroOrbit'
 import useScrollToSection from '@/hooks/useScrollToSection'
 
 export const HeroSection = () => {
-	const scrollToProjects = useScrollToSection('projects');
+	const scrollToProjects = useScrollToSection('projects')
 
 	return (
-		<section id='hero' className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'>
+		<section
+			id='hero'
+			className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'
+		>
 			<div className='absolute inset-0 -z-30 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
 				<div
 					className='absolute inset-0 opacity-5'
@@ -139,18 +142,22 @@ export const HeroSection = () => {
 						Crafting Seamless Digital Experiences
 					</h1>
 					<p className='mt-4 text-center text-white/60 md:text-lg'>
-					I turn ideas into dynamic, user-friendly web applications. Let's collaborate to bring your vision to life.
+						I turn ideas into dynamic, user-friendly web applications. Let's
+						collaborate to bring your vision to life.
 					</p>
 				</div>
 				<div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
-					<button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl' onClick={scrollToProjects}>
+					<button
+						className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'
+						onClick={scrollToProjects}
+					>
 						<span className='font-semibold'>Explore My Work</span>
 						<ArrowDown className='size-4' />
 					</button>
 					<button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
-						<a href="https://www.linkedin.com/in/babatomiwaaderibigbe">
-						<span>👋</span>
-						<span className='font-semibold'>Let's Connect</span>
+						<a href='https://www.linkedin.com/in/babatomiwaaderibigbe'>
+							<span>👋</span>
+							<span className='font-semibold'>Let's Connect</span>
 						</a>
 					</button>
 				</div>

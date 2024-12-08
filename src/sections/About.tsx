@@ -174,7 +174,6 @@ export const AboutSection = () => {
 								<div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]'></div>
 								<div className='absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10'></div>
 								<div className='relative rounded-full border border-sky-400 size-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-clip'>
-
 									<Image
 										src={smileMemoji}
 										alt='Smiling Memoji'
