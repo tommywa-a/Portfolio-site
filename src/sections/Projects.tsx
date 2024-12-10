@@ -12,7 +12,7 @@ const portfolioProjects = [
 	{
 		company: 'Acme Corp',
 		year: '2022',
-		title: 'Dark Saas Landing Page',
+		title: 'ECommerce Site',
 		results: [
 			{ title: 'Enhanced user experience by 40%' },
 			{ title: 'Improved site speed by 50%' },
