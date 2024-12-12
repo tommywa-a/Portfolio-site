@@ -1,4 +1,4 @@
-import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png'
+import darkSaasLandingPage from '@/assets/images/logoipsum_screen.png'
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png'
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
 import Image from 'next/image'
@@ -10,9 +10,9 @@ import { Card } from '@/components/Card'
 
 const portfolioProjects = [
 	{
-		company: 'Acme Corp',
-		year: '2022',
-		title: 'ECommerce Site',
+		company: 'Logoipsum',
+		year: '2024',
+		title: 'Learning Management System Site',
 		results: [
 			{ title: 'Enhanced user experience by 40%' },
 			{ title: 'Improved site speed by 50%' },
