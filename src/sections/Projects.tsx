@@ -18,7 +18,7 @@ const portfolioProjects = [
 			{ title: 'Improved site speed by 50%' },
 			{ title: 'Increased mobile traffic by 35%' },
 		],
-		link: 'https://youtu.be/4k7IdSLxh6w',
+		link: 'https://lms-webapp-tommywaas-projects.vercel.app/',
 		image: darkSaasLandingPage,
 	},
 	{
