@@ -9,6 +9,7 @@ import JavascriptIcon from '@/assets/icons/square-js.svg'
 import HTMLIcon from '@/assets/icons/html5.svg'
 import CssIcon from '@/assets/icons/css3.svg'
 import ReactIcon from '@/assets/icons/react.svg'
+import NextJsIcon from '@/assets/icons/nextjs.svg'
 import ChromeIcon from '@/assets/icons/chrome.svg'
 import GithubIcon from '@/assets/icons/github.svg'
 import { TechIcon } from '@/components/TechIcon'
@@ -39,6 +40,10 @@ const toolboxItems = [
 	{
 		title: 'Chrome',
 		iconType: ChromeIcon,
+	},
+	{
+		title: 'NextJs',
+		iconType: NextJsIcon,
 	},
 	{
 		title: 'Github',
