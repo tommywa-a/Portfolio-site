@@ -12,6 +12,7 @@ import ReactIcon from '@/assets/icons/react.svg'
 import NextJsIcon from '@/assets/icons/nextjs.svg'
 import ChromeIcon from '@/assets/icons/chrome.svg'
 import GithubIcon from '@/assets/icons/github.svg'
+import JavaIcon from '@/assets/icons/icons8-java.svg'
 import { TechIcon } from '@/components/TechIcon'
 import mapImage from '@/assets/images/map.png'
 import smileMemoji from '@/assets/images/Tomiwa-avatar_for_map.png'
@@ -44,6 +45,10 @@ const toolboxItems = [
 	{
 		title: 'NextJs',
 		iconType: NextJsIcon,
+	},
+	{
+		title: 'Java',
+		iconType: JavaIcon,
 	},
 	{
 		title: 'Github',
