@@ -35,7 +35,7 @@ const portfolioProjects = [
 	},
 	{
 		company: 'STOrE',
-		year: '2024',
+		year: '2023',
 		title: 'AI Startup Landing Page',
 		results: [
 			{ title: 'Enhanced user experience by 40%' },
