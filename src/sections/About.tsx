@@ -94,8 +94,8 @@ const hobbies = [
 		top: '65%',
 	},
 	{
-		title: 'Reading',
-		emoji: '📖',
+		title: 'Puzzles',
+		emoji: '🔎',
 		left: '45%',
 		top: '70%',
 	},
