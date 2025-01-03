@@ -40,7 +40,19 @@ const portfolioProjects = [
 		results: [
 			{ title: 'Add-to-cart' },
 			{ title: 'Checkout functionality' },
-			{ title: '' },
+			{ title: 'Filter functionality' },
+		],
+		link: 'https://youtu.be/Z7I5uSRHMHg',
+		image: aiStartupLandingPage,
+	},
+	{
+		company: 'STOrE (Admin)',
+		year: '2024',
+		title: 'E-Commerce Admin (SAAS) Site',
+		results: [
+			{ title: 'Analytics page' },
+			{ title: 'Multiple Store functionality' },
+			{ title: 'Api Route generation to allow for easy connection to frontend stores' },
 		],
 		link: 'https://youtu.be/Z7I5uSRHMHg',
 		image: aiStartupLandingPage,
@@ -81,7 +93,9 @@ export const ProjectsSection = () => {
 												key={result.title}
 												className='flex gap-2 text-sm md:text-base text-white/50'
 											>
-												<CheckCircleIcon className='size-5 md:size-6' />
+												<div className='self-center'>
+													<CheckCircleIcon className='size-5 md:size-6' />
+												</div>
 												<span>{result.title}</span>
 											</li>
 										))}
