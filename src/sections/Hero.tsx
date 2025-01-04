@@ -8,6 +8,14 @@ import StarIcon from '@/assets/icons/star.svg'
 import SparkleIcon from '@/assets/icons/sparkle.svg'
 import { HeroOrbit } from '@/components/HeroOrbit'
 import useScrollToSection from '@/hooks/useScrollToSection'
+import JavascriptIcon from '@/assets/icons/square-js.svg'
+import HTMLIcon from '@/assets/icons/html5.svg'
+import CssIcon from '@/assets/icons/css3.svg'
+import ReactIcon from '@/assets/icons/react.svg'
+import NextJsIcon from '@/assets/icons/nextjs.svg'
+import ChromeIcon from '@/assets/icons/chrome.svg'
+import GithubIcon from '@/assets/icons/github.svg'
+import JavaIcon from '@/assets/icons/icons8-java.svg'
 
 export const HeroSection = () => {
 	const scrollToProjects = useScrollToSection('projects')
@@ -26,6 +34,64 @@ export const HeroSection = () => {
 				<div className='size-[820px] hero-ring'></div>
 				<div className='size-[1020px] hero-ring'></div>
 				<div className='size-[1220px] hero-ring'></div>
+				<HeroOrbit
+					size={480}
+					rotation={-166}
+					shouldOrbit
+					orbitDuration='40s'
+					shouldSpin
+					spinDuration='13s'
+				>
+					<div className='rounded-full size-8 overflow-clip flex items-center justify-center mb-4 '>
+						<JavaIcon className='rounded-full text-emerald-300/70 text-center' />
+					</div>
+				</HeroOrbit>
+				<HeroOrbit
+					size={380}
+					rotation={-14}
+					shouldOrbit
+					orbitDuration='40s'
+					shouldSpin
+					spinDuration='3s'
+				>
+					<div className='rounded-full size-8 overflow-clip flex items-center justify-center mb-4 '>
+						<ReactIcon className='rounded-full text-emerald-300/70 text-center' />
+					</div>
+				</HeroOrbit>
+				<HeroOrbit
+					size={360}
+					rotation={-169}
+					shouldOrbit
+					orbitDuration='40s'
+					shouldSpin
+					spinDuration='3s'
+				>
+					<NextJsIcon className='size-8 text-emerald-300/70' />
+				</HeroOrbit>
+				<HeroOrbit
+					size={440}
+					rotation={14}
+					shouldOrbit
+					orbitDuration='38s'
+					shouldSpin
+					spinDuration='3s'
+				>
+					<div className='rounded-full size-8 overflow-clip flex items-center justify-center mb-4 '>
+						<JavascriptIcon className='rounded-full text-emerald-300/70 text-center' />
+					</div>
+				</HeroOrbit>
+				<HeroOrbit
+					size={470}
+					rotation={-180}
+					shouldOrbit
+					orbitDuration='42s'
+					shouldSpin
+					spinDuration='7s'
+				>
+					<div className='rounded-full size-8 overflow-clip flex items-center justify-center mb-4 '>
+						<HTMLIcon className='rounded-full text-emerald-300/70 text-center' />
+					</div>
+				</HeroOrbit>
 				<HeroOrbit
 					size={430}
 					rotation={-14}
