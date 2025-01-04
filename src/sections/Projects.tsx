@@ -1,5 +1,5 @@
-import darkSaasLandingPage from '@/assets/images/logoipsum_screen.png'
-import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png'
+import logoipsumScreen from '@/assets/images/logoipsum_screen.png'
+import airbnbScreen from '@/assets/images/Airbnb_screen.png'
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
 import Image from 'next/image'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
@@ -19,7 +19,7 @@ const portfolioProjects = [
 			{ title: 'Analytics tab for course creators' },
 		],
 		link: 'https://lms-webapp-tommywaas-projects.vercel.app/',
-		image: darkSaasLandingPage,
+		image: logoipsumScreen,
 	},
 	{
 		company: 'Airbnb clone',
@@ -31,7 +31,7 @@ const portfolioProjects = [
 			{ title: 'Advanced search algorithm' },
 		],
 		link: 'https://youtu.be/7hi5zwO75yc',
-		image: lightSaasLandingPage,
+		image: airbnbScreen,
 	},
 	{
 		company: 'STOrE',
