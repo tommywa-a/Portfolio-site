@@ -2,18 +2,6 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
 
 const footerLinks = [
 	{
-		title: 'YouTube',
-		href: '#',
-	},
-	{
-		title: 'Twitter',
-		href: '#',
-	},
-	{
-		title: 'Instagram',
-		href: '#',
-	},
-	{
 		title: 'LinkedIn',
 		href: 'https://www.linkedin.com/in/babatomiwaaderibigbe',
 	},
