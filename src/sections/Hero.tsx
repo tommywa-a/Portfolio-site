@@ -10,11 +10,8 @@ import { HeroOrbit } from '@/components/HeroOrbit'
 import useScrollToSection from '@/hooks/useScrollToSection'
 import JavascriptIcon from '@/assets/icons/square-js.svg'
 import HTMLIcon from '@/assets/icons/html5.svg'
-import CssIcon from '@/assets/icons/css3.svg'
 import ReactIcon from '@/assets/icons/react.svg'
 import NextJsIcon from '@/assets/icons/nextjs.svg'
-import ChromeIcon from '@/assets/icons/chrome.svg'
-import GithubIcon from '@/assets/icons/github.svg'
 import JavaIcon from '@/assets/icons/icons8-java.svg'
 
 export const HeroSection = () => {
