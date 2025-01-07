@@ -152,6 +152,7 @@ export const AboutSection = () => {
 							<CardHeader
 								title='Beyond the Code'
 								description='My hobbies and interests.'
+								subDescription='(This section is interactive).'
 								className='px-6 py-6'
 							/>
 							<div

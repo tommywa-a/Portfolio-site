@@ -4,10 +4,12 @@ import { twMerge } from 'tailwind-merge'
 export const CardHeader = ({
 	title,
 	description,
+	subDescription,
 	className,
 }: {
 	title: string
 	description: string
+	subDescription?: string
 	className?: string
 }) => {
 	return (
@@ -16,8 +18,11 @@ export const CardHeader = ({
 				<StarIcon className=' size-9 text-emerald-300' />
 				<h3 className='font-serif text-3xl'>{title}</h3>
 			</div>
-			<p className='text-sm lg:text-base max-w-xs text-white/60 mt-2'>
+			<p className='text-sm lg:text-base font-medium max-w-xs text-white/60 mt-2'>
 				{description}
+			</p>
+			<p className='text-sm lg:text-sm italic max-w-xs text-white/30 mt-0'>
+				{subDescription}
 			</p>
 		</div>
 	)
