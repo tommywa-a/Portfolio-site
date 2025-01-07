@@ -1,6 +1,7 @@
 import logoipsumScreen from '@/assets/images/logoipsum_screen.png'
 import airbnbScreen from '@/assets/images/Airbnb_screen.png'
-import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
+import ecommerceAdminScreen from '@/assets/images/Ecommerce_admin_screen.png'
+import ecommerceStoreScreen from '@/assets/images/Ecommerce_store_screen.png'
 import Image from 'next/image'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
@@ -43,7 +44,7 @@ const portfolioProjects = [
 			{ title: 'Filter functionality' },
 		],
 		link: 'https://youtu.be/Z7I5uSRHMHg',
-		image: aiStartupLandingPage,
+		image: ecommerceStoreScreen,
 	},
 	{
 		company: 'STOrE (Admin)',
@@ -55,7 +56,7 @@ const portfolioProjects = [
 			{ title: 'Api Route generation to allow for easy connection to frontend stores' },
 		],
 		link: 'https://youtu.be/Z7I5uSRHMHg',
-		image: aiStartupLandingPage,
+		image: ecommerceAdminScreen,
 	},
 ]
 
