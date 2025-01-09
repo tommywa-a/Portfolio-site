@@ -176,9 +176,9 @@ export const AboutSection = () => {
 							</div>
 						</Card>
 						<Card className='h-[320px] p-0 relative md:col-span-2 lg:col-span-1'>
-							<Image
-								src={mapImage}
-								alt='Map'
+							<div
+								// src={mapImage}
+								// alt='Map'
 								className='h-full w-full object-cover bg-blue-950/70'
 							/>
 							<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30'>
