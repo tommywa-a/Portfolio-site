@@ -111,7 +111,7 @@ export const AboutSection = () => {
 			<div className='container'>
 				<SectionHeader
 					eyebrow='About Me'
-					title='A Glimpse Into My World'
+					title='A Glimpse Into My World.'
 					description='Learn more about who I am, what I do, and what inspires me.'
 				/>
 				<div className='mt-20 flex flex-col gap-8'>
@@ -176,9 +176,9 @@ export const AboutSection = () => {
 							</div>
 						</Card>
 						<Card className='h-[320px] p-0 relative md:col-span-2 lg:col-span-1'>
-							<div
-								// src={mapImage}
-								// alt='Map'
+							<Image
+								src={mapImage}
+								alt='Map'
 								className='h-full w-full object-cover bg-blue-950/70'
 							/>
 							<div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[""] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30'>
