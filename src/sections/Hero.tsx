@@ -205,7 +205,7 @@ export const HeroSection = () => {
 						Crafting Seamless Digital Experiences
 					</h1>
 					<p className='mt-4 text-center text-white/60 md:text-lg'>
-						I turn ideas into dynamic, user-friendly web applications. Let's
+						I turn ideas into dynamic, user-friendly web applications. Let&apos;s
 						collaborate to bring your vision to life.
 					</p>
 				</div>
@@ -220,7 +220,7 @@ export const HeroSection = () => {
 					<button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
 						<a href='https://www.linkedin.com/in/babatomiwaaderibigbe'>
 							<span>👋</span>
-							<span className='font-semibold'>Let's Connect</span>
+							<span className='font-semibold'>Let&apos;s Connect</span>
 						</a>
 					</button>
 				</div>
