@@ -43,7 +43,7 @@ const portfolioProjects = [
 			{ title: 'Checkout functionality' },
 			{ title: 'Filter functionality' },
 		],
-		link: 'https://youtu.be/Z7I5uSRHMHg',
+		link: 'https://ecommerce-store-by-tomiwa.vercel.app/',
 		image: ecommerceStoreScreen,
 	},
 	{
@@ -55,7 +55,7 @@ const portfolioProjects = [
 			{ title: 'Multiple Store functionality' },
 			{ title: 'Api Route generation to allow for easy connection to frontend stores' },
 		],
-		link: 'https://youtu.be/Z7I5uSRHMHg',
+		link: 'https://ecommerce-admin-by-tomiwa.vercel.app/',
 		image: ecommerceAdminScreen,
 	},
 ]
