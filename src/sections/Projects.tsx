@@ -31,7 +31,7 @@ const portfolioProjects = [
 			{ title: 'Creation and deletion of properties' },
 			{ title: 'Advanced search algorithm' },
 		],
-		link: 'https://youtu.be/7hi5zwO75yc',
+		link: 'https://home-rent-app-tommywaas-projects.vercel.app/',
 		image: airbnbScreen,
 	},
 	{
