@@ -205,6 +205,7 @@ export const HeroSection = () => {
 						Crafting Seamless Digital Experiences
 					</h1>
 					<p className='mt-4 text-center text-white/60 md:text-lg'>
+						Hello! I&apos;m Tomiwa.<br />
 						I turn ideas into dynamic, user-friendly web applications. Let&apos;s
 						collaborate to bring your vision to life.
 					</p>
