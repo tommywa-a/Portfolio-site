@@ -18,7 +18,7 @@ const portfolioProjects = [
 			{ title: 'Teacher view and student view' },
 			{ title: 'Analytics tab for course creators' },
 		],
-		link: 'https://lms-webapp-tommywaas-projects.vercel.app/',
+		link: 'https://lms-webapp-by-tomiwa.vercel.app/',
 		image: logoipsumScreen,
 	},
 	{
@@ -30,7 +30,7 @@ const portfolioProjects = [
 			{ title: 'Creation and deletion of properties' },
 			{ title: 'Advanced search algorithm' },
 		],
-		link: 'https://home-rent-app-tommywaas-projects.vercel.app/',
+		link: 'https://home-rent-app-by-tomiwa.vercel.app/',
 		image: airbnbScreen,
 	},
 	{
