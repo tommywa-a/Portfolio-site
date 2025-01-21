@@ -34,7 +34,7 @@ const portfolioProjects = [
 		image: airbnbScreen,
 	},
 	{
-		company: 'STOrE',
+		company: 'Ooak',
 		year: '2024',
 		title: 'E-Commerce Site',
 		results: [
