@@ -5,6 +5,10 @@ const footerLinks = [
 		title: 'LinkedIn',
 		href: 'https://www.linkedin.com/in/babatomiwaaderibigbe',
 	},
+	{
+		title: 'GitHub',
+		href: 'https://github.com/tommywa-a',
+	},
 ]
 
 export const Footer = () => {
