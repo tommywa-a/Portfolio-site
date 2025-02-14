@@ -48,7 +48,7 @@ const portfolioProjects = [
 	{
 		company: 'STOrE (Admin)',
 		year: '2024',
-		title: 'E-Commerce Admin (SAAS) Site',
+		title: 'E-Commerce Admin Site',
 		results: [
 			{ title: 'Analytics page' },
 			{ title: 'Multiple Store functionality' },
