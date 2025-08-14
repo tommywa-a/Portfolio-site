@@ -23,12 +23,21 @@ export const ContactSection = () => {
 							</p>
 						</div>
 						<div>
-							<button className='text-white bg-gray-900 px-6 h-12 rounded-xl w-max border border-gray-900'>
+							<button className='text-white bg-gray-900 px-6 mb-6 h-12 rounded-xl w-full border border-gray-900'>
 								<a
 									href='https://www.linkedin.com/in/babatomiwaaderibigbe'
 									className='inline-flex items-center gap-2'
 								>
 									<span className='font-semibold'>Contact Me</span>
+									<ArrowUpRightIcon className='size-4' />
+								</a>
+							</button>
+							<button className='text-white bg-gray-900 px-6 h-12 rounded-xl w-full border border-gray-900'>
+								<a
+									href='https://www.github.com/tommywa-a'
+									className='inline-flex items-center gap-2'
+								>
+									<span className='font-semibold w-max'>View My Github</span>
 									<ArrowUpRightIcon className='size-4' />
 								</a>
 							</button>
