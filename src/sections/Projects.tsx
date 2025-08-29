@@ -2,6 +2,7 @@ import logoipsumScreen from '@/assets/images/logoipsum_screen.png'
 import airbnbScreen from '@/assets/images/Airbnb_screen.png'
 import ecommerceAdminScreen from '@/assets/images/Ecommerce_admin_screen.png'
 import ecommerceStoreScreen from '@/assets/images/Ecommerce_store_screen.png'
+import meetAiScreen from '@/assets/images/meet_ai_screen.png'
 import Image from 'next/image'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
@@ -9,6 +10,18 @@ import { SectionHeader } from '@/components/SectionHeader'
 import { Card } from '@/components/Card'
 
 const portfolioProjects = [
+	{
+		company: 'Meet AI',
+		year: '2025',
+		title: 'AI Video Meeting App',
+		results: [
+			{ title: 'Create AI personalities and have video calls with them' },
+			{ title: 'Get meeting summarized by AI after the meeting' },
+			{ title: 'Chat with AI regarding the context of your meeting' },
+		],
+		link: 'https://meet-ai-by-tomiwa.vercel.app/',
+		image: meetAiScreen,
+	},
 	{
 		company: 'Logoipsum',
 		year: '2024',
