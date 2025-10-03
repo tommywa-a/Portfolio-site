@@ -9,6 +9,16 @@ const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weig
 export const metadata: Metadata = {
   title: "Tomiwa Aderibigbe's Portfolio",
   description: "Babatomiwa Aderibigbe's Portfolio",
+  keywords: ["Tomiwa Aderibigbe", "Babatomiwa Aderibigbe", "Portfolio", "Tomiwa Aderibigbe's Portfolio", "Babatomiwa Aderibigbe's Portfolio"],
+  authors: [{ name: "Tomiwa Aderibigbe", url: "https://tomiwaaderibigbe.vercel.app/" }],
+  openGraph: {
+    title: "Tomiwa Aderibigbe's Portfolio",
+    description: "Babatomiwa Aderibigbe's Portfolio",
+    type: "website",
+    locale: "en_US",
+    siteName: "Tomiwa Aderibigbe's Portfolio",
+    url: "https://tomiwaaderibigbe.vercel.app/",
+  },
 };
 
 export default function RootLayout({
