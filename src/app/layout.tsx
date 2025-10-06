@@ -8,12 +8,12 @@ const calistoga = Calistoga({ subsets: ["latin"], variable: "--font-serif", weig
 
 export const metadata: Metadata = {
   title: "Tomiwa Aderibigbe's Portfolio",
-  description: "Babatomiwa Aderibigbe's Portfolio",
+  description: "Tomiwa Aderibigbe - Expert Software Developer | Specializing in React, Next.js, and Modern Web Technologies | Building Fast, Responsive, and User-Centric Web Applications",
   keywords: ["Tomiwa Aderibigbe", "Babatomiwa Aderibigbe", "Portfolio", "Tomiwa Aderibigbe's Portfolio", "Babatomiwa Aderibigbe's Portfolio"],
   authors: [{ name: "Tomiwa Aderibigbe", url: "https://tomiwaaderibigbe.vercel.app/" }],
   openGraph: {
     title: "Tomiwa Aderibigbe's Portfolio",
-    description: "Babatomiwa Aderibigbe's Portfolio",
+    description: "Tomiwa Aderibigbe - Expert Software Developer | Specializing in React, Next.js, and Modern Web Technologies | Building Fast, Responsive, and User-Centric Web Applications",
     type: "website",
     locale: "en_US",
     siteName: "Tomiwa Aderibigbe's Portfolio",
